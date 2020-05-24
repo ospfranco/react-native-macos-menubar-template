@@ -10,4 +10,7 @@ Not all is without pains, react-native-macos is so new, none of the native libra
 
 You also don't have react-navigation, at least the latest version, you will have to make due with the old v2 branch that uses pure javascript.
 
+React-native-vector-icons has been linked already on this project, so you can use directly and I also added a "macos:install" command so you can do a pod install, despite vector-icons autolinking not supporting macos for the moment
+
+## Support
 Feel free to message me on Twitter if you have some questions or if you want to support me, check out [Tempomat](https://tempomat.dev) on the app store

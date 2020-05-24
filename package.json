@@ -8,12 +8,15 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "start:macos": "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos"
+    "macos:start": "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+    "macos:run": "node node_modules/react-native-macos/local-cli/cli.js run-macos",
+    "macos:install": "cd node_modules/react-native-vector-icons && mv RNVectorIcons.podspec X && cd ../../macos && pod install && cd ../node_modules/react-native-vector-icons && mv X RNVectorIcons.podspec"
   },
   "dependencies": {
     "react": "16.11.0",
     "react-native": "0.62.2",
-    "react-native-macos": "^0.61.0-0"
+    "react-native-macos": "^0.61.0-0",
+    "react-native-vector-icons": "^6.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
