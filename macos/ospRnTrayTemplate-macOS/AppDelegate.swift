@@ -13,7 +13,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let jsCodeLocation: URL
 
     jsCodeLocation = RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index", fallbackResource:nil)
-    let rootView = RCTRootView(bundleURL: jsCodeLocation, moduleName: "tempomat", initialProperties: nil, launchOptions: nil)
+    let rootView = RCTRootView(bundleURL: jsCodeLocation, moduleName: "ospRnTrayTemplate", initialProperties: nil, launchOptions: nil)
     let rootViewController = NSViewController()
     rootViewController.view = rootView
 
@@ -28,7 +28,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     if let button = self.statusBarItem.button {
         button.action = #selector(togglePopover(_:))
-      button.title = "Tempomat"
+      button.title = "template"
     }
 
   }
