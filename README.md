@@ -2,7 +2,7 @@
 
 This is a sample project of how you can create a menu bar app on macOS using react-native and the newly released react-native-macos, if you want to create one yourself you can follow the steps from my [Blog](https://ospfranco.github.io/post/2020/05/23/how-to-make-a-react-native-menu-bar-app-for-mac-os/)
 
-![Image description](https://github.com/ospfranco/rn-macos-menubar-template/assets/RNMENUBARAPP.JPG)
+![Image description](https://github.com/ospfranco/rn-macos-menubar-template/blob/master/assets/RNMENUBARAPP.JPG?raw=true)
 
 ## Caveats
 
