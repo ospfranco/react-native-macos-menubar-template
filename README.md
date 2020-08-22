@@ -1,16 +1,15 @@
 # RN MenuBar for macOS sample Project
 
-This is a sample project of how you can create a menu bar app on macOS using react-native and the newly released react-native-macos, if you want to create one yourself you can follow the steps from my [Blog](https://ospfranco.github.io/post/2020/05/23/how-to-make-a-react-native-menu-bar-app-for-mac-os/)
+This is a sample project of a menu bar app on macOS using **react-native-macos**, if you want to create one yourself you can follow [these steps](https://ospfranco.github.io/post/2020/05/23/how-to-make-a-react-native-menu-bar-app-for-mac-os/)
 
 ![Image description](https://github.com/ospfranco/rn-macos-menubar-template/blob/master/assets/RNMENUBARAPP.JPG?raw=true)
 
 ## Caveats
 
-Not all is without pains, react-native-macos is so new, none of the native libraries will work, react-native-vector-icons work fine if you follow the mac os steps, but the pod installation is messed up.
+Not all libraries have react-native-macos support, support is slowly being added but you might need to work around many limitations, .
 
-You also don't have react-navigation, at least the latest version, you will have to make due with the old v2 branch that uses pure javascript.
+**react-native-vector-icons** work fine if you follow the macOS steps, it has been linked already on this project, so you can use directly and I also added a "macos:install" command so you can do a pod install, but the pod installation is messed up in this version.
 
-React-native-vector-icons has been linked already on this project, so you can use directly and I also added a "macos:install" command so you can do a pod install, despite vector-icons autolinking not supporting macos for the moment
+**react-navigation** also does not work, support is being added alebit slowly, you will have to make due with the old v2 branch that uses pure javascript.
 
-## Support
-Feel free to message me on Twitter if you have some questions or if you want to support me, check out [Tempomat](https://tempomat.dev) on the app store
+**As time passes by this repo will become obsolete, the original steps on my blog should be enough for anyone trying to replicate it though, so it is now archived**
